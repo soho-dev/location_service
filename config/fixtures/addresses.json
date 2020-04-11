@@ -1,0 +1,184 @@
+{
+  "212 encounter bay": {
+    "address": "212 encounter bay",
+    "city": "Alameda",
+    "zip": "90255",
+    "state": "CA",
+    "county": "Alameda"
+  },
+  "978 stannage avenu": {
+    "address": "978 stannage avenu",
+    "city": "Albany",
+    "zip": "91106",
+    "state": "CA",
+    "county": "Albany"
+  },
+  "123 Test, Hunting Park": {
+    "address": "123 Test",
+    "city": "Hunting Park",
+    "zip": "90255",
+    "state": "CA",
+    "county": "Washington"
+  },
+  "433 Camden, Beverly Hills": {
+    "address": "433 Camden",
+    "city": "Beverly Hills",
+    "zip": "90210",
+    "state": "CA",
+    "county": "Washington"
+  },
+  "1920 Hinckley, Fantasy Island": {
+    "address": "1920 Hinckley",
+    "city": "Fantasy Island",
+    "zip": "60750",
+    "state": "IL",
+    "county": "Washington"
+  },
+  "400 E, Newburgh, NY 12550": {
+    "address": "400 E",
+    "city": "Newburgh",
+    "zip": "12550",
+    "state": "NY",
+    "county": "Orange"
+  },
+  "123 Test, Newburgh, NY 12550": {
+    "address": "123 Test",
+    "city": "Newburgh",
+    "zip": "12550",
+    "state": "NY",
+    "county": "Orange"
+  },
+  "834 67th, Brooklyn, NY 11220": {
+    "address": "834 67th",
+    "city": "Brooklyn",
+    "zip": "11220",
+    "state": "NY",
+    "county": "Kings"
+  },
+  "11 Brooks Hill, Lansing, NY 14882": {
+    "address": "11 Brooks Hill",
+    "city": "Lansing",
+    "zip": "14882",
+    "state": "NY",
+    "county": "Tompkins"
+  },
+  "2477 Norte Vista, WallKill, NY 12589": {
+    "address": "2477 Norte Vista",
+    "city": "WallKill",
+    "zip": "12589",
+    "state": "NY",
+    "county": "Ulster"
+  },
+  "115 Noteockaway Beach Blv, Far Rockaway, NY 11694": {
+    "address": "115 Noteockaway Beach Blv",
+    "city": "Far Rockaway",
+    "state": "NY",
+    "zip": "11694",
+    "county": "Tompkins"
+  },
+  "1574 Coast, Newburgh, NY 12550": {
+    "address": "1574 Coast",
+    "city": "Newburgh",
+    "state": "NY",
+    "zip": "12550",
+    "county": "Tompkins"
+  },
+  "1725 Manzanita, Newburgh, NY 12550": {
+    "address": "1725 Manzanita",
+    "city": "Newburgh",
+    "state": "NY",
+    "zip": "12550",
+    "county": "Tompkins"
+  },
+  "471 9th, Brooklyn, NY 11215": {
+    "address": "471 9th",
+    "city": "Brookyln",
+    "state": "NY",
+    "zip": "11215",
+    "county": "Tompkins"
+  },
+  "2416 156, Newburgh, NY 12550": {
+    "address": "2416 156",
+    "city": "Newburgh",
+    "state": "NY",
+    "zip": "12550",
+    "county": "Tompkins"
+  },
+  "6514 Parsons, Fresh Meadows, NY 11365": {
+    "address": "6514 Parsons",
+    "city": "Fresh Meadows",
+    "state": "NY",
+    "zip": "11365",
+    "county": "Tompkins"
+  },
+  "1220 Box 1220 PSC 220, Wallkill, NY 12589": {
+    "address": "1220 Box 1220 PSC 220",
+    "city": "Wallkill",
+    "state": "NY",
+    "zip": "12589",
+    "county": "Ulster"
+  },
+  "9311 La Grange, Wallkill, NY 12589": {
+    "address": "9311 La Grange",
+    "city": "Wallkill",
+    "state": "NY",
+    "zip": "12589",
+    "county": "Ulster"
+  },
+  "1140 Salisbury, Wallkill, NY 12589": {
+    "address": "1140 Salisbury",
+    "city": "Wallkill",
+    "state": "NY",
+    "zip": "12589",
+    "county": "Ulster"
+  },
+  "524 Royal Oaks, Wallkill, NY 12589": {
+    "address": "524 Royal Oaks",
+    "city": "Wallkill",
+    "state": "NY",
+    "zip": "12589",
+    "county": "Ulster"
+  },
+  "2101 Raymond, Wallkill, NY 12589": {
+    "address": "2101 Raymond",
+    "city": "Wallkill",
+    "state": "NY",
+    "zip": "12589",
+    "county": "Ulster"
+  },
+  "16004 17th, Whitestone, NY 11357": {
+    "address": "16004 17th",
+    "city": "Whitestone",
+    "state": "NY",
+    "zip": "11357",
+    "county": "Ulster"
+  },
+  "1356 Cleveland, Niagara Falls, NY 14305": {
+    "address": "1356 Cleveland",
+    "city": "Niagara Falls",
+    "state": "NY",
+    "zip": "14305",
+    "county": "Ulster"
+  },
+  "23 Green, Clairton, PA 15025": {
+    "address": "23 Green",
+    "city": "Clairton",
+    "state": "PA",
+    "zip": "15025",
+    "county": "Ulster"
+  },
+  "760 Sproul, Springfield, PA 19064": {
+    "address": "760 Sproul",
+    "city": "Springfield",
+    "state": "PA",
+    "zip": "19064",
+    "county": "Ulster"
+  },
+  "320 Harrison, Lewisburg, PA 17837": {
+    "address": "320 Harrison",
+    "city": "Lewisburg",
+    "state": "PA",
+    "zip": "17837",
+    "county": "Ulster"
+  }
+}
