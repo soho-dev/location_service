@@ -5,8 +5,7 @@ class AddressParamsConverter
   end
 
   def format
-    # call here to google api
-    return sample_addresses[@address]
+    results  = AddressLookup.lookup(@address)
   end
 
   private

@@ -4,11 +4,13 @@ module Api
     before_action :validate_params, only: [:eligible]
 
     def eligible
-      if formatted_address.present?
-        body = property.eligible
-        render json: body.to_json, status: 200
-      else
-        render json: {message: "Address Not found"}, status: 404
+      with_authorization do
+        if formatted_address.present?
+          body = property.eligible
+          render json: body.to_json, status: 200
+        else
+          render json: {message: "Address Not found"}, status: 404
+        end
       end
     end
 
@@ -19,7 +21,7 @@ module Api
     end
 
     def formatted_address
-      @formatted_address ||= AddressParamsConverter.new(params[:address]).format
+      @formatted_address ||= AddressLookup.lookup(params[:address])
     end
 
     def validate_params
