@@ -11,7 +11,7 @@ class AddressLookup
 
     private
       def get_from_cache(address)
-        $redis.get(address)
+        AddressCache.get(address)
       end
 
       def lookup_in_google_maps(address)
@@ -44,7 +44,7 @@ class AddressLookup
       end
 
       def put_in_cache(address, result)
-        $redis.set(address, result.to_json)
+        AddressCache.set(address, result.to_json)
       end
 
       def get_mock_address_response(address)

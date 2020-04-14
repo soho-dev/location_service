@@ -1,0 +1,20 @@
+default: &default
+  eviction:
+    ex: 86400 # 1 day
+    # Use "ex:" to specify expiration in seconds
+    # Use "px:" to specify expiration in milliseconds
+
+test:
+  <<: *default
+
+development:
+  <<: *default
+
+alpha:
+  <<: *default
+
+beta:
+  <<: *default
+
+production:
+  <<: *default
