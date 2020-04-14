@@ -1,0 +1,51 @@
+Counties:
+  Alachua:
+    Cities:
+      - Alachua
+      - Archer
+      - Gainesville
+      - Hawthorne
+      - High Springs
+      - La Crosse
+      - Micanopy
+      - Newberry
+      - Waldo
+  Broward:
+    Cities:
+      - Dania Beach
+      - Hollywood
+      - Margate
+      - Miramar
+      - Pembroke Pines
+      - Pompano Beach
+      - Tamarac
+      - Coconut Creek
+      - Parkland
+      - Hillsboro Beach
+      - Davie
+      - Sunrise
+  Escambia:
+  Indian River:
+    Cities:
+      - Fellsmere
+      - Sebastian
+  Martin:
+    Cities:
+      - Stuart
+  Orange:
+    Cities:
+      - Orlando
+  Palm Beach:
+    Cities:
+      - Boynton Beach
+      - Delray Beach
+      - Lake Worth
+      - Lantana
+      - Mangonia Park
+      - North Palm Beach
+      - Tequesta
+      - West Palm Beach
+  Pasco:
+  Pinellas:
+    Cities:
+      - Gulfport

@@ -23,7 +23,11 @@ class Property
     end
 
     def eligible_counties
-      @eligible_counties ||= YAML.load_file("#{ELIGIBLE_REGION_PATH}/ca.yml")["Counties"]
+      @eligible_counties ||= eligible_states["Counties"] if eligible_states.present?
+    end
+
+    def eligible_states
+      YAML.load_file("#{ELIGIBLE_REGION_PATH}/#{state}.yml")
     end
 
     def county
@@ -32,5 +36,9 @@ class Property
 
     def city
       formatted_address["city"]
+    end
+
+    def state
+      formatted_address["state"]
     end
 end
