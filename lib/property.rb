@@ -8,7 +8,7 @@ class Property
 
   def eligible
     message = if @formatted_address.present?
-      eligible_cities.include?(city) ? "address_eligible" : "address not eligible"
+      eligible_cities.include?(city) ? "address is eligible" : "address not eligible"
     else
       "address not found"
     end

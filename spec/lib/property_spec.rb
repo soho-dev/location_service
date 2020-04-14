@@ -4,7 +4,7 @@ RSpec.describe Property do
   context "address eligible" do
     let(:formatted_address) { {"street"=>"212 encounter bay", "city"=>"Alameda", "zip"=>"90255", "state"=>"California", "county"=>"Alameda", "country"=>"United States"} }
     it "returns message" do
-      expect(subject.eligible[:message]).to eq "address_eligible"
+      expect(subject.eligible[:message]).to eq "address is eligible"
     end
 
     it "returns formatted address" do
