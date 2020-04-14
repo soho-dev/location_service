@@ -13,7 +13,7 @@ RSpec.describe Property do
   end
 
   context "address not eligible" do
-    let(:formatted_address) { {"street"=>"212 encounter bay", "city"=>"test", "county"=>"Alameda"} }
+    let(:formatted_address) { {"street"=>"212 encounter bay", "city"=>"test", "county"=>"Alameda", "state" => "California"} }
     it "returns message" do
       expect(subject.eligible[:message]).to eq "address not eligible"
     end

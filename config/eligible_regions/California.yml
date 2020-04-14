@@ -1,6 +1,5 @@
 Counties:
   Alameda:
-    Unincorporated Areas: true
     Cities:
       - Alameda
       - Albany
@@ -17,11 +16,9 @@ Counties:
       - San Leandro
       - Union City
   Butte:
-    Unincorporated Areas: true
     Cities:
       - Chico
   Contra Costa:
-    Unincorporated Areas: false
     Cities:
       - Antioch
       - Brentwood
@@ -39,12 +36,10 @@ Counties:
       - San Ramon
       - Walnut Creek
   El Dorado:
-    Unincorporated Areas: false
     Cities:
       - Placerville
       - South Lake Tahoe
   Fresno:
-    Unincorporated Areas: true
     Cities:
       - Clovis
       - Firebaugh
@@ -62,12 +57,10 @@ Counties:
       - Mendota
       - Parlier
   Humboldt:
-    Unincorporated Areas: true
     Cities:
       - Arcata
       - Eureka
   Kern:
-    Unincorporated Areas: true
     Cities:
       - Kern
       - County
@@ -78,7 +71,6 @@ Counties:
       - Taft
       - Wasco
   Los Angeles:
-    Unincorporated Areas: true
     Cities:
       - Agoura Hills
       - Alhambra
@@ -166,9 +158,7 @@ Counties:
       - West Hollywood
       - Whittier
   Madera:
-    Unincorporated Areas: true
   Marin:
-    Unincorporated Areas: true
     Cities:
       - Belvedere
       - Corte Madera
@@ -181,13 +171,10 @@ Counties:
       - San Rafael
       - Tiburon
   Mendocino:
-    Unincorporated Areas: true
     Cities:
       - Fort Bragg
   Merced:
-    Unincorporated Areas: true
   Monterey:
-    Unincorporated Areas: true
     Cities:
       - Carmel-by-the-Sea
       - Del Rey Oaks
@@ -202,7 +189,6 @@ Counties:
       - Seaside
       - Soledad
   Napa:
-    Unincorporated Areas: true
     Cities:
       - American Canyon
       - Calistoga
@@ -210,11 +196,9 @@ Counties:
       - St. Helena
       - Yountville
   Nevada:
-    Unincorporated Areas: false
     Cities:
       - Nevada City
   Orange:
-    Unincorporated Areas: false
     Cities:
       - Aliso Viejo
       - Anaheim
@@ -226,27 +210,22 @@ Counties:
       - Santa Ana
       - Westminster
   Riverside:
-    Unincorporated Areas: false
     Cities:
       - Beaumont
   Sacramento:
-    Unincorporated Areas: true
     Cities:
       - Citrus Heights
       - Elk Grove
       - Rancho Cordova
       - Galt
   San Bernardino:
-    Unincorporated Areas: false
     Cities:
       - Colton
   San Benito:
-    Unincorporated Areas: true
     Cities:
       - Hollister
       - San Juan Bautista
   San Diego:
-    Unincorporated Areas: true
     Cities:
       - Carlsbad
       - Chula Vista
@@ -266,17 +245,14 @@ Counties:
       - Solana Beach
       - Vista
   San Francisco:
-    Unincorporated Areas: true
     Cities:
       - San Francisco
   San Joaquin:
-    Unincorporated Areas: false
     Cities:
       - Lodi
       - Manteca
       - Stockton
   San Luis Obispo:
-    Unincorporated Areas: false
     Cities:
       - Arroyo Grande
       - Atascadero
@@ -285,7 +261,6 @@ Counties:
       - Morro Bay
       - San Luis Obispo
   San Mateo:
-    Unincorporated Areas: true
     Cities:
       - Atherton
       - Belmont
@@ -308,7 +283,6 @@ Counties:
       - South San Francisco
       - Woodside
   Santa Clara:
-    Unincorporated Areas: false
     Cities:
       - Campbell
       - Cupertino
@@ -326,18 +300,15 @@ Counties:
       - Saratoga
       - Sunnyvale
   Santa Cruz:
-    Unincorporated Areas: true
     Cities:
       - Capitola
       - Santa Cruz
       - Scotts Valley
       - Watsonville
   Shasta:
-    Unincorporated Areas: true
     Cities:
       - Anderson
   Solano:
-    Unincorporated Areas: true
     Cities:
       - Benicia
       - Dixon
@@ -346,7 +317,6 @@ Counties:
       - Vacaville
       - Vallejo
   Sonoma:
-    Unincorporated Areas: true
     Cities:
       - Cloverdale
       - Healdsburg
@@ -356,22 +326,18 @@ Counties:
       - Sonoma
       - Windsor
   Stanislaus:
-    Unincorporated Areas: false
     Cities:
       - Modesto
       - Turlock
       - Waterford
   Sutter:
-    Unincorporated Areas: false
     Cities:
       - Yuba City
   Tulare:
-    Unincorporated Areas: true
     Cities:
       - Porterville
       - Visalia
   Ventura:
-    Unincorporated Areas: true
     Cities:
       - Camarillo
       - Fillmore
@@ -384,7 +350,6 @@ Counties:
       - Simi Valley
       - Thousand Oaks
   Yolo:
-    Unincorporated Areas: true
     Cities:
       - Davis
       - West Sacramento
