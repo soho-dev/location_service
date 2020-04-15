@@ -14,7 +14,7 @@ describe Api::V1::AddressEligibilitiesController, type: :controller do
           "street" => "212 encounter bay",
           "zip" => "90255"
         },
-        "message" => "address is eligible"
+        "message" => "address_eligible"
       }
     }
     let(:non_eligible_response) {

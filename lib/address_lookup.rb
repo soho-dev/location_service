@@ -52,7 +52,7 @@ class AddressLookup
       end
 
       def sample_addresses
-        YAML.load_file('config/fixtures/addresses.json')
+        YAML.load_file("#{Rails.root}/config/fixtures/addresses.json")
       end
   end
 end

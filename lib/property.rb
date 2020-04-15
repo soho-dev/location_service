@@ -8,7 +8,7 @@ class Property
 
   def eligible
     message = if @formatted_address.present?
-      eligible_cities.include?(city) ? "address is eligible" : "address not eligible"
+      eligible_cities.include?(city) ? "address_eligible" : "address not eligible"
     else
       "address not found"
     end
@@ -23,11 +23,15 @@ class Property
     end
 
     def eligible_counties
-      @eligible_counties ||= eligible_states["Counties"] if eligible_states.present?
+      @eligible_counties ||= eligible_states["Counties"] || {}
     end
 
     def eligible_states
-      YAML.load_file("#{ELIGIBLE_REGION_PATH}/#{state}.yml")
+      if File.exists? ("#{ELIGIBLE_REGION_PATH}/#{state}.yml")
+        YAML.load_file("#{ELIGIBLE_REGION_PATH}/#{state}.yml")
+      else
+        {}
+      end
     end
 
     def county
