@@ -1,6 +1,6 @@
 class Property
 
-  ELIGIBLE_REGION_PATH = "config/eligible_regions"
+  ELIGIBLE_REGION_PATH = "#{Rails.root}/config/eligible_regions"
 
   def initialize(formatted_address)
     @formatted_address = formatted_address

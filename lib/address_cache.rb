@@ -69,7 +69,7 @@ class AddressCache
     end
 
     def cache_config
-      @cache_config ||= load_yaml("config/cache.yml")[ENV["RACK_ENV"]]
+      @cache_config ||= load_yaml("#{Rails.root}/config/cache.yml")[ENV["RACK_ENV"]]
     end
 
     def load_yaml(file)
