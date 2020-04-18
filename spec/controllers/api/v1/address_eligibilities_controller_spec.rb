@@ -19,16 +19,7 @@ describe Api::V1::AddressEligibilitiesController, type: :controller do
     }
     let(:non_eligible_response) {
       {
-        "formatted_address" =>
-          {
-            "street" => "123 Test",
-            "city" => "Hunting Park",
-            "zip" => "90255",
-            "state" => "California",
-            "county" => "Washington",
-            "country" => "United States",
-          },
-        "message" => "address not eligible"
+        "message" => "Address Not found"
       }
     }
     let(:not_found_response) {
